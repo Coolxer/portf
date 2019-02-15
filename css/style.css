@@ -4,8 +4,13 @@
     padding: 0;
 }
 
+html, .pure-g [class *= "pure-u"] {
+        font-family: 'Luckiest Guy', cursive
+    }
+
 body {
     background-color: #333333;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 #container {
@@ -14,22 +19,35 @@ body {
 }
 
 header {
-    width: 100%;
-    background-color: red;
+    background-color: #1a1a1a;
+    opacity: 0.7;
+}
+
+#menu {
+    display: flex;
+    justify-content: end;
 }
 
 ul {
     height: 5vh;
+    font-size: 3vh;
     list-style-type: none;
-    background-color: orange;
+    background-color: #1a1a1a;
 }
 
 li {
+    display: block;
     height: 100%;
+    line-height: 100%;
+    color: #FFF;
+
+    text-align: center;
+    line-height: 140%;
 }
 
 li:hover {
-    background-color: pink;
+    background-color: #0099ff;
+    cursor: pointer;
 }
 
 svg {
