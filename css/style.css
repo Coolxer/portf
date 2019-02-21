@@ -5,7 +5,8 @@
 }
 
 html, .pure-g [class *= "pure-u"] {
-        font-family: 'Luckiest Guy', cursive
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 3vh;
     }
 
 html {
@@ -40,7 +41,7 @@ header {
 
 ul {
     height: 7vh;
-    font-size: 3vh;
+    font-size: 1rem;
     list-style-type: none;
 }
 
@@ -123,40 +124,62 @@ rect {
 text {
     fill:#FFF;
     font-family: 'Coiny', cursive;
-    font-size: 0.62em; 
+    font-size: 0.35rem; 
 }
 
 #c2 {
+    margin-top: 30px;
     min-height: 100vh;
 }
 
 hr {
-    border: 2px solid yellow;
-}
-
-h2 {
-    font-size: 2em;
-    font-family: 'Shadows Into Light', cursive;
-    color: #FFF;
-    background-color: red;
+    /* border: 2px solid red; */
 }
 
 .box {
-    background-color: #0099ff;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* outline: 2px solid #0099ff; */
 }
 
+h2 {
+    font-size: 2rem !important;
+    font-family: 'Shadows Into Light', cursive !important;
+    color: #333333;
+    background-color: #ffcc00;
+}
 
+p {
+    color: #FFF;
+    font-family: 'Indie Flower', cursive !important;
+    padding: 5px;
+}
 
-
-
-
-
-
+#knowledge {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 footer {
     height: 5vh;
     background-color: #262626;
     color: #FFF;
-    font-size: 2em;
     text-align: center;
+}
+
+._icon {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: #FFF;
+    font-size: 10rem;
+}
+
+._leftIcon {
+    margin-right: 20px;
+}
+
+._rightIcon {
+    margin-left: 20px;
 }
