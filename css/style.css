@@ -1,16 +1,5 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
-}
-
-html, .pure-g [class *= "pure-u"] {
-        font-family: 'Luckiest Guy', cursive;
-        font-size: 3vh;
-    }
-
 html {
-    scroll-behavior: smooth;
+    font-size: 3vh;
 }
 
 body {
@@ -18,25 +7,9 @@ body {
     font-family: 'Luckiest Guy', cursive;
 }
 
-._center {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-#container {
-    width: 100vw;
-    height: 100vh;
-}
-
 header {
     background-color: #262626;
     opacity: 0.7;
-}
-
-#menu {
-    display: flex;
-    justify-content: end;
 }
 
 ul {
@@ -46,13 +19,9 @@ ul {
 }
 
 li {
-    display: block;
-    height: 100%;
+    text-align: center;
     color: #FFF;
     opacity: 0.7;
-
-    text-align: center;
-    line-height: 200%;
 }
 
 li:hover {
@@ -60,25 +29,18 @@ li:hover {
     opacity: 1.0;
 }
 
-#content {
+#firstPageContent {
     min-height: 93vh;
+    position: relative;
 }
 
-.ico {
-    position: absolute;
-}
-
-#first {
+#me {
     position: absolute;
     height: 70%;
     z-index: 1;
 }
 
-img {
-    height: 100%;
-}
-
-#s {
+#svgMe {
     position: absolute;
     margin-top: 31vh;
 }
@@ -86,6 +48,11 @@ img {
 #_svg {
     width: 100%;
     height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 circle:hover {
