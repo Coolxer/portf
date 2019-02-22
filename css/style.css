@@ -1,7 +1,3 @@
-html {
-    font-size: 3vh;
-}
-
 body {
     background-color: #333333;
     font-family: 'Luckiest Guy', cursive;
@@ -10,18 +6,21 @@ body {
 header {
     background-color: #262626;
     opacity: 0.7;
+
+    height: 7vh;
 }
 
 ul {
-    height: 7vh;
-    font-size: 1rem;
+    font-size: 3rem;
     list-style-type: none;
 }
 
 li {
+    height: 7vh;
     text-align: center;
     color: #FFF;
     opacity: 0.7;
+    line-height: 7vh;
 }
 
 li:hover {
@@ -31,18 +30,20 @@ li:hover {
 
 #firstPageContent {
     min-height: 93vh;
-    position: relative;
+}
+
+img {
+    width: 100%;
 }
 
 #me {
     position: absolute;
-    height: 70%;
     z-index: 1;
 }
 
-#svgMe {
+#svgDiv {
     position: absolute;
-    margin-top: 31vh;
+    margin-top: 33vh;
 }
 
 #_svg {
@@ -51,13 +52,7 @@ li:hover {
 
     display: flex;
     justify-content: center;
-    align-items: center;
     align-content: center;
-}
-
-circle:hover {
-    fill: yellow;
-    cursor: pointer;
 }
 
 rect {
@@ -91,7 +86,7 @@ rect {
 text {
     fill:#FFF;
     font-family: 'Coiny', cursive;
-    font-size: 0.35rem; 
+    font-size: 0.35rem;
 }
 
 #c2 {
@@ -99,27 +94,25 @@ text {
     min-height: 100vh;
 }
 
-hr {
-    /* border: 2px solid red; */
-}
-
 .box {
     margin-top: 10px;
     margin-left: 10px;
-    /* outline: 2px solid #0099ff; */
 }
 
 h2 {
-    font-size: 2rem !important;
-    font-family: 'Shadows Into Light', cursive !important;
+    font-family: 'Shadows Into Light', cursive;
     color: #333333;
     background-color: #ffcc00;
+
+    text-align: center;
 }
 
 p {
     color: #FFF;
-    font-family: 'Indie Flower', cursive !important;
+    font-family: 'Indie Flower', cursive ;
     padding: 5px;
+
+    font-size: 2rem;
 }
 
 #knowledge {
@@ -136,11 +129,10 @@ footer {
 }
 
 ._icon {
-    display: flex;
-    height: 100%;
-    align-items: center;
     color: #FFF;
-    font-size: 10rem;
+    font-size: 9rem;
+
+    text-align: center;
 }
 
 ._leftIcon {
