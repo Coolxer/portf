@@ -1,3 +1,11 @@
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+.mar-5 { margin-top: 5px; }
+.mar-10 { margin-top: 10px; }
+.mar-20 { margin-top: 20px; }
+.mar-30 { margin-top: 30px; }
+.mar-50 { margin-top: 50px; }
+
 body {
     background-color: #333333;
     font-family: 'Luckiest Guy', cursive;
@@ -90,13 +98,7 @@ text {
 }
 
 #c2 {
-    margin-top: 30px;
     min-height: 100vh;
-}
-
-.box {
-    margin-top: 10px;
-    margin-left: 10px;
 }
 
 h2 {
@@ -115,12 +117,6 @@ p {
     font-size: 2rem;
 }
 
-#knowledge {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 footer {
     height: 5vh;
     background-color: #262626;
@@ -128,17 +124,39 @@ footer {
     text-align: center;
 }
 
-._icon {
-    color: #FFF;
-    font-size: 9rem;
 
+._icon  {
+    position: relative;
+}
+
+._icon::after {
+    font-family: "Font Awesome 5 Free";;
+
+    position: absolute;
+    width: 35%;
+    height: 100%;
+
+    font-size: 15rem;
+    font-weight: 900;
+    line-height: 16rem;
     text-align: center;
+
+    color: #FFF;
 }
 
-._leftIcon {
-    margin-right: 20px;
+
+#about::after {
+    content: "\f007";
 }
 
-._rightIcon {
-    margin-left: 20px;
+#knowledge::after {
+    content: "\f02d";
+}
+
+#projects::after {
+    content: "\f022";
+}
+
+#interests::after {
+    content: "\f001";
 }
