@@ -6,6 +6,89 @@
 .mar-30 { margin-top: 30px; }
 .mar-50 { margin-top: 50px; }
 
+/* ---------------------------------------- */
+html,
+body {
+	font-size: 14px !important;
+}
+h1 {
+	font-size: 1.602em;
+}
+h2 {
+	font-size: 1.424em;
+}
+h3 {
+	font-size: 1.266em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.889em;
+}
+h6 {
+	font-size: 0.79em;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	font-size: 2.5em;
+}
+.display-4 {
+	font-size: 2em;
+}
+
+@media (min-width: 48em) {
+	h1 {
+	  font-size: 2.441em;
+	}
+	h2 {
+		font-size: 1.953em;
+	}
+	h3 {
+		font-size: 1.563em;
+	}
+	h4 {
+		font-size: 1.25em;
+	}
+	.display-1 {
+		font-size: 6em;
+	}
+	.display-2 {
+		font-size: 5.5em;
+	}
+	.display-3 {
+		font-size: 4.5em;
+	}
+	.display-4 {
+		font-size: 3.5em;
+	}
+}
+
+@media (min-width: 62em) {
+	html,
+	body {
+		font-size: 16px !important;
+	}
+}
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) {
+	html,
+	body {
+		font-size: 18px !important;
+	}
+}
+
+
+
+
+/*---------------------------------------------------------*/
+
 body {
     font-family: 'Luckiest Guy', cursive;
 
@@ -20,11 +103,11 @@ hr {
 
 .menuItem {
     height: 7vh;
-    font-size: 28px;
+    font-size: 1.5em;
     color: #FFF;
     opacity: 0.4;
 
-    line-height: 65px;
+    line-height: 3em;
 }
 
 .menuItem:hover {
@@ -54,16 +137,9 @@ hr {
     border: 1px solid red;
 }
 
-h2 {
-    font-size: 1.5rem;
-}
-
-p {
-    font-size: 0.5rem;
-}
 
 /* -------------------------- */
-.box h4 {
+.box h3 {
     color: #1a1a1a;
     background-color: #ffcc00;
     font-family: 'Righteous', cursive;
@@ -72,10 +148,12 @@ p {
 .box p {
     color: #FFF;
     font-family: 'Shadows Into Light', cursive;
+
+    font-size: 2em;
 }
 
 ._icon {
-    font-size: 3rem;
+    font-size: 10em;
     line-height: 3.5rem;
 
     color: #FFF;
