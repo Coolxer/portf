@@ -8,96 +8,102 @@
 
   <title>Portfolio</title>
 
-  <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-min.css">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"> -->
-
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css"> -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css"> -->
   <link rel="stylesheet" href="css/style.css">
+
 </head>
-
 <body>
-  <div class="container u-full-width u-max-full-width ">
-    <header class="row">
-      <div class="four columns offset-by-eight">
-        <ul class="row">
-          <li class="four columns"><i class="fas fa-home"></i> HOME</li>
-          <li class="four columns"><i class="fas fa-paperclip"></i> CV</li>
-          <li class="four columns"><i class="fas fa-phone"></i> CONTACT</li>
-        </ul>
-      </div>
-    </header>
-
-    <main class="row">
-      <div class="eight columns offset-by-two" id="firstPageContent">
-        <div class="row">
-          <div class="four columns offset-by-two" id="me"><img src="img/testy.png"></div>
-          <div class="four columns offset-by-two" id="svgDiv">
-            <svg width="800" height="533" viewBox="0 0 158.75 105.83" id="_svg">
-              <rect x="7.3705" y="17.5" width="72.004" height="11.339" class="left" />
-              <rect x="7.3705" y="31.988" width="72.004" height="11.339" class="left" />
-              <rect x="7.3705" y="46.54" width="72.004" height="11.339" class="left" />
-              <rect x="7.3705" y="61.092" width="72.004" height="11.339" class="left" />
-
-              <rect x="79.375" y="17.5" width="72.004" height="11.339" class="right" />
-              <rect x="79.375" y="31.988" width="72.004" height="11.339" class="right" />
-              <rect x="79.375" y="46.54" width="72.004" height="11.339" class="right" />
-              <rect x="79.375" y="61.092" width="72.004" height="11.339" class="right" />
-
-              <rect x="19.05" y="91.659" width="121.71" height="11.906" id="nameBox" />
-
-              <text x="39.309525" y="101.86458">
-                <tspan x="39.309525" y="101.86458">ŁUKASZ MIŁOŚ</tspan>
-              </text>
-            </svg>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12" id="firstPage">
+          <div class="row">
+            <div class="col-12">
+              <div class="row justify-content-end">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-4 col-xl-4">
+                  <div class="row">
+                    <div class="col menuItem text-center"><i class="fas fa-home"></i><span
+                        class="d-none d-sm-none d-md-none d-lg-inline-block d-xl-inline-block"> HOME</span></div>
+                    <div class="col menuItem text-center"><i class="fas fa-paperclip"></i><span
+                        class="d-none d-sm-none d-md-none d-lg-inline-block d-xl-inline-block"> CV</span></div>
+                    <div class="col menuItem text-center"><i class="fas fa-phone"></i><span
+                        class="d-none d-sm-none d-md-none d-lg-inline-block d-xl-inline-block"> CONTACT</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="row h-100 justify-content-center">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6" style="height: 93vh;">
+                  <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                      <h2>Hello, I am <span style="color: red;">Łukasz Miłoś</span></h2>
+                      <hr>
+                      <p>Full stack developer and IT passionate </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row mar-30" id="c2">
-        <div class="five columns offset-by-one _icon" id="about">
-          <div class="eight columns">
-            <h2 class="twelve columns">#About</h2>
-            <p class="twelve columns">I am Polish computer programmer who dreams in code. I like solving problems and implement
-              new solutions to different life's spheres.</p>
+    </div>
+    <hr style="border: 1px solid red">
+    <div class="container-fluid mar-30">
+      <div class="row">
+        <div class="col-12" id="others">
+          <div class="row">
+            <div class="col-5 offset-1 text-center box">
+              <h4>#About</h4>
+              <p>I am Polish computer programmer who dreams in code. I like solving problems and
+              implement new solutions to different life's spheres</p>
+            </div>
+            <div class="col-1 _icon">
+              <i class="fas fa-user"></i>
+            </div>
           </div>
-          <!-- <div class="two columns _icon _rightIcon"><i class="fas fa-user"></i></div> -->
-        </div>
-        <div class="five columns offset-by-six mar-20 _icon" id="knowledge">
-          <div class="eight columns">
-            <h2 class="twelve columns">#Knowledge</h2>
-            <p class="twelve columns">I know some of programming languages, techniques and tools.</p>
+          <div class="row mar-20">
+            <div class="col-1 offset-5 _icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="col-5 text-center box">
+              <h4>#Knowledge</h4>
+              <p>I know some of programming languages, techniques and tools. I am master in C++ language. I know also html, css, javascript, java(basics)</p>
+            </div>
           </div>
-          <!-- <div class="two columns _icon _rightIcon"><i class="fas fa-book"></i></div> -->
-        </div>
-        <div class="five columns offset-by-one mar-20 _icon" id="projects">
-          <div class="eight columns">
-            <h2 class="twelve columns">#Projects</h2>
-            <p class="twelve columns">Here are some projects in which i worked at.</p>
+          <div class="row mar-20">
+            <div class="col-5 offset-1 text-center box">
+              <h4>#Interests</h4>
+              <p>I am interested in new IT technology such as machine learning, 3D printing and autonomous cars</p>
+            </div>
+            <div class="col-1 _icon">
+              <i class="fas fa-volleyball-ball"></i>
+            </div>
           </div>
-          <!-- <div class="two columns _icon _rightIcon"><i class="fas fa-project-diagram"></i></div> -->
-        </div>
-        <div class="five columns offset-by-six mar-20 _icon" id="interests">
-          <div class="eight columns">
-            <h2 class="twelve columns">#Interests</h2>
-            <p class="twelve columns">I am interested in new IT technology such as machine learning, 3D printing and autonomous cars.</p>
-          </div>
-          <!-- <div class="two columns _icon _rightIcon"><i class="fas fa-volleyball-ball"></i></div> -->
         </div>
       </div>
-    </main>
-
-    <!-- <footer>
-
-
-    </footer> -->
-  </div>
+    </div>
 </body>
 
 </html>

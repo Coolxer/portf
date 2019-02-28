@@ -7,156 +7,98 @@
 .mar-50 { margin-top: 50px; }
 
 body {
-    background-color: #333333;
     font-family: 'Luckiest Guy', cursive;
+
+    background-color: #1a1a1a;
 }
 
-header {
-    background-color: #262626;
-    opacity: 0.7;
+hr {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
 
+.menuItem {
     height: 7vh;
-}
-
-ul {
-    font-size: 3rem;
-    list-style-type: none;
-}
-
-li {
-    height: 7vh;
-    text-align: center;
+    font-size: 28px;
     color: #FFF;
-    opacity: 0.7;
-    line-height: 7vh;
+    opacity: 0.4;
+
+    line-height: 65px;
 }
 
-li:hover {
+.menuItem:hover {
     cursor: pointer;
-    opacity: 1.0;
+    opacity: 0.8;
 }
 
-#firstPageContent {
-    min-height: 93vh;
-}
+/* ------------------------------------------------------------ */
 
-img {
-    width: 100%;
-}
+#firstPage {
+    background-image: url("../img/bg4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-#me {
-    position: absolute;
-    z-index: 1;
-}
-
-#svgDiv {
-    position: absolute;
-    margin-top: 33vh;
-}
-
-#_svg {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-rect {
-    position: relative;
-    left: 0;
-    fill:#ffcc00;
-
-    cursor: pointer;
-
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-.left:hover {
-    left: 20px;
-    padding-left: -20px;
-}
-
-.right:hover {
-    left: -20px;
-    padding-right: -20px;
-}
-
-#nameBox {
-    fill: #333333;
-    outline: 2px solid #0099ff;
-}
-
-text {
-    fill:#FFF;
+    text-align: center;
     font-family: 'Coiny', cursive;
-    font-size: 0.35rem;
+
+    color: #FFF;
+
+    height: 100vh;
 }
 
-#c2 {
-    min-height: 100vh;
+#firstPage hr {
+    opacity: 0.5;
+    border: 1px solid red;
 }
 
 h2 {
-    font-family: 'Shadows Into Light', cursive;
-    color: #333333;
-    background-color: #ffcc00;
-
-    text-align: center;
+    font-size: 1.5rem;
 }
 
 p {
+    font-size: 0.5rem;
+}
+
+/* -------------------------- */
+.box h4 {
+    color: #1a1a1a;
+    background-color: #ffcc00;
+    font-family: 'Righteous', cursive;
+}
+
+.box p {
     color: #FFF;
-    font-family: 'Indie Flower', cursive ;
-    padding: 5px;
-
-    font-size: 2rem;
+    font-family: 'Shadows Into Light', cursive;
 }
 
-footer {
-    height: 5vh;
-    background-color: #262626;
-    color: #FFF;
-    text-align: center;
-}
-
-
-._icon  {
-    position: relative;
-}
-
-._icon::after {
-    font-family: "Font Awesome 5 Free";;
-
-    position: absolute;
-    width: 35%;
-    height: 100%;
-
-    font-size: 15rem;
-    font-weight: 900;
-    line-height: 16rem;
-    text-align: center;
+._icon {
+    font-size: 3rem;
+    line-height: 3.5rem;
 
     color: #FFF;
 }
 
+/****************************************** /*
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    html {font-size: 16px;}
+  }
 
-#about::after {
-    content: "\f007";
-}
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    html {font-size: 30px;}
+  }
 
-#knowledge::after {
-    content: "\f02d";
-}
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    html {font-size: 40px;}
 
-#projects::after {
-    content: "\f022";
-}
-
-#interests::after {
-    content: "\f001";
-}
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    html {font-size: 48px;}
+  }
