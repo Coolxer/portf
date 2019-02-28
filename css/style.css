@@ -154,6 +154,28 @@ hr {
     color: #FFF;
 }
 
+.comb {
+    height: 50vh;
+    background-color: #1a1a1a;
+    color: #FFF;
+
+    margin: 20px;
+
+    transform: rotate(25deg);
+
+    transition: all .2s ease-in-out; 
+
+    outline: 5px solid #0099ff;
+}
+
+.comb:hover {
+    cursor: pointer;
+    outline: none;
+    background-color: #0099ff;
+    transform: rotate(25deg) scale(1.18);
+}
+
+
 /****************************************** /*
 Bootstrap 4 breakpoints
 */
