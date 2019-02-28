@@ -6,7 +6,7 @@
 .mar-30 { margin-top: 30px; }
 .mar-50 { margin-top: 50px; }
 
-/* ---------------------------------------- */
+/* --------------------------------------- RESPONSIVE FONT SIZE */
 html,
 body {
 	font-size: 14px !important;
@@ -76,15 +76,12 @@ h6 {
 	}
 }
 
-// Extra large devices (large desktops, 75em and up)
 @media (min-width: 75em) {
 	html,
 	body {
 		font-size: 18px !important;
 	}
 }
-
-
 
 
 /*---------------------------------------------------------*/
@@ -114,8 +111,6 @@ hr {
     cursor: pointer;
     opacity: 0.8;
 }
-
-/* ------------------------------------------------------------ */
 
 #firstPage {
     background-image: url("../img/bg4.jpg");
@@ -149,7 +144,7 @@ hr {
     color: #FFF;
     font-family: 'Shadows Into Light', cursive;
 
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 ._icon {
