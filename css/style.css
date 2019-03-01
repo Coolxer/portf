@@ -3,8 +3,11 @@
 .mar-5 { margin-top: 5px; }
 .mar-10 { margin-top: 10px; }
 .mar-20 { margin-top: 20px; }
+.mar-25 { margin-top: 25px; }
 .mar-30 { margin-top: 30px; }
 .mar-50 { margin-top: 50px; }
+.mar-70 { margin-top: 70px; }
+.mar-100 { margin-top: 100px; }
 
 /* --------------------------------------- RESPONSIVE FONT SIZE */
 html,
@@ -113,7 +116,7 @@ hr {
 }
 
 #firstPage {
-    background-image: url("../img/bg4.jpg");
+    background-image: url("../img/bg7.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +134,6 @@ hr {
     opacity: 0.5;
     border: 1px solid red;
 }
-
 
 /* -------------------------- */
 .box h4 {
@@ -155,66 +157,51 @@ hr {
 }
 
 #cont {
-    background: repeating-linear-gradient(
-  -65deg,
-  #222,
-  #222 10px,
-  #333 10px,
-  #333 20px
-);
+    background-color: #0099ff;
+    transform: skew(-20deg);
+
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .comb {
     height: 50vh;
+    /* transform: rotate(25deg); */
+
     background-color: #1a1a1a;
     color: #FFF;
-
-    margin: 20px;
-
-    transform: rotate(25deg);
-
-    transition: all .2s ease-in-out; 
-
-    outline: 5px solid #0099ff;
-
     text-align: center;
+
+    transition: all .2s ease-in-out;
+}
+
+.name {
+    margin:0;
+    padding:0;
+    font-family: 'Amatic SC', cursive;
+}
+
+._img {
+    font-size: 6em;
 }
 
 .comb:hover {
+    /* transform: scale(1.18); */
     cursor: pointer;
-    outline: none;
     background-color: #0099ff;
-    transform: rotate(25deg) scale(1.18);
 }
 
-.comb h4 {
-    /* width: 1px;
-    word-wrap: break-word;
-    white-space: pre-wrap; */
+#footer {
+    color: #FFF;
+    text-align:center;
 
-    /* writing-mode: horizontal-tb; */
-    writing-mode: sideways-lr;
-    padding: 10px;
+    height: 7vh;
+    background-color: #000;
+    opacity: 0.5;
+
+    font-size: 1.5em;
+
+    line-height: 2.5em;
+    font-family: 'Srisakdi', cursive;
 }
-
-/****************************************** /*
-Bootstrap 4 breakpoints
-*/
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {
-    html {font-size: 16px;}
-  }
-
-  /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-    html {font-size: 30px;}
-  }
-
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    html {font-size: 40px;}
-
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-    html {font-size: 48px;}
-  }
