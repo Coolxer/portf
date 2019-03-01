@@ -136,6 +136,7 @@ hr {
 }
 
 /* -------------------------- */
+
 .box h4 {
     color: #1a1a1a;
     background-color: #ffcc00;
@@ -156,15 +157,9 @@ hr {
     color: #FFF;
 }
 
-#cont {
-    background-color: #0099ff;
-    transform: skew(-20deg);
-
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+#contBig {
+    transform:skew(-20deg);
 }
- 
 
 .comb {
     background-color: #1a1a1a;
@@ -174,15 +169,20 @@ hr {
     transition: all .2s ease-in-out;
 
     z-index: 1;
+    outline: 2px solid #404040;
 }
 
 ._big {
     height: 50vh;
 }
 
+._big:hover {
+    transform: scale(1.15) !important;
+    outline: none;
+}
+
 ._small {
-    outline: 2px solid #0099ff;
-    
+    outline: 2px solid #404040;
 }
 
 ._small h4 {
