@@ -164,11 +164,9 @@ hr {
     padding-left: 30px;
     padding-right: 30px;
 }
+ 
 
 .comb {
-    height: 50vh;
-    /* transform: rotate(25deg); */
-
     background-color: #1a1a1a;
     color: #FFF;
     text-align: center;
@@ -176,6 +174,19 @@ hr {
     transition: all .2s ease-in-out;
 
     z-index: 1;
+}
+
+._big {
+    height: 50vh;
+}
+
+._small {
+    outline: 2px solid #0099ff;
+    
+}
+
+._small h4 {
+    margin-top: 25px;
 }
 
 .comb:hover {
