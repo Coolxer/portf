@@ -174,6 +174,15 @@ hr {
     text-align: center;
 
     transition: all .2s ease-in-out;
+
+    z-index: 1;
+}
+
+.comb:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    background-color: #0099ff;
+    z-index: 2;
 }
 
 .name {
@@ -186,10 +195,13 @@ hr {
     font-size: 6em;
 }
 
-.comb:hover {
-    /* transform: scale(1.18); */
-    cursor: pointer;
-    background-color: #0099ff;
+#contactBox {
+    border: 5px solid #ffcc00;
+    border-radius: 20px;
+}
+
+.formItem {
+    color: #FFF;
 }
 
 #footer {
