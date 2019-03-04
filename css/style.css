@@ -219,6 +219,19 @@ hr {
     color: #FFF;
 }
 
+#info {
+    color: #FFF;
+    font-family: 'Indie Flower', cursive;
+}
+
+#info h2 {
+    opacity: 0.5;
+}
+
+#info p {
+    font-size: 1.5em;
+}
+
 #socialBox {
 
 }
