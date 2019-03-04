@@ -5,6 +5,7 @@
 .mar-20 { margin-top: 20px; }
 .mar-25 { margin-top: 25px; }
 .mar-30 { margin-top: 30px; }
+.mar-35 { margin-top: 35px; }
 .mar-50 { margin-top: 50px; }
 .mar-70 { margin-top: 70px; }
 .mar-100 { margin-top: 100px; }
@@ -170,6 +171,8 @@ hr {
 
     z-index: 1;
     outline: 2px solid #404040;
+
+    opacity: 0.7;
 }
 
 ._big {
@@ -178,7 +181,6 @@ hr {
 
 ._big:hover {
     transform: scale(1.15) !important;
-    outline: none;
 }
 
 ._small {
@@ -194,6 +196,7 @@ hr {
     cursor: pointer;
     background-color: #0099ff;
     z-index: 2;
+    opacity: 1.0;
 }
 
 .name {
@@ -207,12 +210,42 @@ hr {
 }
 
 #contactBox {
+    background-color: #333333;
     border: 5px solid #ffcc00;
     border-radius: 20px;
 }
 
 .formItem {
     color: #FFF;
+}
+
+#socialBox {
+
+}
+
+.social {
+    width: 2em;
+    height: 2em;
+
+    padding: 10px;
+    color: #FFF;
+
+    opacity: 0.6;
+
+    border: 2px solid #0099ff;
+    border-radius: 50%;
+
+    font-size: 2em;
+    line-height: 1.3em;
+
+    transition: all .1s ease-in-out;
+}
+
+
+.social:hover {
+    cursor: pointer;
+    background-color: #0099ff;
+    opacity: 1.0;
 }
 
 #footer {
