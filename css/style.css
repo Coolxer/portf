@@ -82,48 +82,27 @@ hr {
 }
 
 #contBig {
-    transform:skew(-20deg);
+    
 }
 
 .comb {
-    background-color: #1a1a1a;
-    color: #FFF;
-    text-align: center;
-
-    transition: all .2s ease-in-out;
-
     z-index: 1;
     border: 1px solid #404040;
+    text-align: center;
     opacity: 0.7;
-}
 
-._big {
-    height: 50vh;
-}
-
-._big:hover {
-    transform: scale(1.15) !important;
-}
-
-._small {
-    border: 2px solid #404040;
-}
-
-._small h4 {
-    margin-top: 25px;
+    transition: all .2s ease-in-out;
 }
 
 .comb:hover {
+    z-index: 2;
     transform: scale(1.15);
     cursor: pointer;
     background-color: #0099ff;
-    z-index: 2;
     opacity: 1.0;
 }
 
 .name {
-    margin:0;
-    padding:0;
     font-family: 'Amatic SC', cursive;
 }
 
@@ -131,18 +110,7 @@ hr {
     font-size: 6em;
 }
 
-#contactBox {
-    background-color: #333333;
-    border: 5px solid #ffcc00;
-    border-radius: 20px;
-}
-
-.formItem {
-    color: #FFF;
-}
-
 #info {
-    color: #FFF;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -154,24 +122,17 @@ hr {
     font-size: 1.5em;
 }
 
-#socialBox {
-
-}
-
 .social {
     width: 2em;
     height: 2em;
-
     padding: 10px;
-    color: #FFF;
-
-    opacity: 0.6;
+    font-size: 2em;
 
     border: 2px solid #0099ff;
     border-radius: 50%;
-
-    font-size: 2em;
     line-height: 1.3em;
+
+    opacity: 0.6;
 
     transition: all .1s ease-in-out;
 }
@@ -184,13 +145,8 @@ hr {
 }
 
 #footer {
-    color: #FFF;
-    text-align:center;
-
     background-color: #000;
-    opacity: 0.5;
-
     font-size: 1.5em;
-
+    opacity: 0.5;
     font-family: 'Srisakdi', cursive;
 }
