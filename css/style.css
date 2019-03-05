@@ -96,24 +96,9 @@ body {
     background-color: #1a1a1a;
 }
 
-hr {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 10px;
-}
-
-.menuItem {
-    height: 7vh;
-    font-size: 1.5em;
+a, a:link, a:visited {
+    text-decoration: none;
     color: #FFF;
-    opacity: 0.4;
-
-    line-height: 3em;
-}
-
-.menuItem:hover {
-    cursor: pointer;
-    opacity: 0.8;
 }
 
 #firstPage {
@@ -134,6 +119,30 @@ hr {
 #firstPage hr {
     opacity: 0.5;
     border: 1px solid red;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#menu {
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.menuItem {
+    height: 7vh;
+    font-size: 1.5em;
+    color: #FFF;
+
+    line-height: 3em;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 /* -------------------------- */
@@ -265,12 +274,10 @@ hr {
     color: #FFF;
     text-align:center;
 
-    height: 7vh;
     background-color: #000;
     opacity: 0.5;
 
     font-size: 1.5em;
 
-    line-height: 2.5em;
     font-family: 'Srisakdi', cursive;
 }
