@@ -87,6 +87,8 @@ hr {
     line-height: 3.5rem;
 }
 
+/* ------ PROJECT BOX  --------- */
+
 .comb {
     z-index: 1;
     border: 1px solid #404040;
@@ -111,6 +113,8 @@ hr {
 ._img {
     font-size: 6em;
 }
+
+/* ----------- CONTACT BOX  ------------- */
 
 #info {
     font-family: 'Indie Flower', cursive;
@@ -145,6 +149,8 @@ hr {
     background-color: #0099ff;
     opacity: 1.0;
 }
+
+/* ------------- FOOTER ----------------- */
 
 #footer {
     background-color: #000;
